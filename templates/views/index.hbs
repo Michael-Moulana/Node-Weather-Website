@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Weather</title>
+    <link rel="icon" href="/img/we.webp">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+    <div class="main-content">
+        {{>header}}
+        <h2>Let's get weather right now !</h2>
+        <br>
+        <p>Search your location:</p>
+        <form action="">
+            <input type="text" placeholder="London e.g.">
+            <button>Search</button>
+        </form>
+        <div id="search-result">
+            <div class="loader-container">
+                <div id="loader" style="display: none;"></div>
+            </div>
+            <p id="errorMessage"></p>
+            <p id="message-1"></p>
+            <p id="message-2"></p>
+            <i class="fa-thin fa-temperature-half"></i>
+            <p id="message-3"></p>
+            <p id="message-4"></p>
+            <p id="message-5"></p>
+            <p id="message-6"></p>
+        </div>
+    </div>
+
+    {{>footer}}
+
+    <script src="/js/app.js"></script>
+</body>
+
+</html>
