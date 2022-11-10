@@ -1,5 +1,3 @@
-console.log('client side javascript file is loaded!')
-
 // 'fetch' ( is a function.) is not a part of javascript. it is a browser based api but it is not accessible in node js. using it in all modern browsers to fetch the data from client side
 // we use 'then' method on the return value from fetch and we provide to it the callback function we want to run and we get access to the response as the first and only argument up above
 
